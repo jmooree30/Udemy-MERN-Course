@@ -7,7 +7,7 @@ const validateProfileInput = require("../../validation/profile");
 const validateExperienceInput = require("../../validation/experience");
 const validateEducationInput = require("../../validation/education");
 
-const Profile = require("../../models/profile");
+const Profile = require("../../models/Profile");
 const User = require("../../models/User");
 
 router.get("/test", (req, res) => res.json({ mesg: "profile works" }));
