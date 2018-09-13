@@ -1,7 +1,6 @@
 const initalState = {
   isAuthenticated: false,
-  user: {},
-  name: "Jacob"
+  user: {}
 };
 
 export default function(state = initalState, action) {
